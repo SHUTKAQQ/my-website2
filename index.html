@@ -1,22 +1,49 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Мій сайт</title>
+    <title>SHUTKAGO Site</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            background: linear-gradient(135deg, #667eea, #764ba2);
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             color: white;
             text-align: center;
-            padding: 50px;
+            padding: 100px;
+            margin: 0;
         }
         h1 {
             font-size: 3em;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        p {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .btn {
+            display: inline-block;
+            background: #ff6b6b;
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 25px;
+            margin: 20px;
+            font-weight: bold;
         }
     </style>
 </head>
 <body>
-    <h1>🎉 Мій перший сайт на GitHub!</h1>
-    <p>Працює безкоштовно і назавжди!</p>
+    <div class="container">
+        <h1>🎉 Welcome to SHUTKAGO!</h1>
+        <p>My awesome website on GitHub Pages</p>
+        <div>
+            <a href="/about" class="btn">About Me</a>
+            <a href="/contact" class="btn">Contact</a>
+        </div>
+    </div>
 </body>
 </html>
